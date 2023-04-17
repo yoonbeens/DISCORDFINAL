@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+        <!--footer start-->
+        <footer>
+            <div class="end-container">
+
+                <div class="end-container-body">
+
+                    <div class="end-body">
+                        <div class="end-vertical-fill">
+                            <h4>
+                                이런 공간이 있다면 어떨까요
+                            </h4>
+                            <!-- <form action="#"> -->
+                            <!-- <img src="./img/62cb46f125430509b9016776_ko.png" alt="#" class="img1"> -->
+                            <!-- <label for="lang">Language</label> -->
+                            <!-- <select name="languages" class="lang">
+                                    <option value="ko" class="koimg"><img src="./img/62cb46f125430509b9016776_ko.png" alt="#" class="img1">한국어</option>
+                                    <option value="ja">일본어</option>
+                                    <option value="ch">중국어</option>
+                                    
+                                </select> -->
+                            <!-- <img src="./img/6257bee91e6309a5a6f6b994_arrow-_1_.png" alt="#" class="arrow"> -->
+                            <!-- </form> -->
+
+                            <section id="theme">
+                                <div class="select" style="">
+                                    <div class="text" style="color:white"><img
+                                            src="./img/62cb46f125430509b9016776_ko.png" alt="#" class="img1"
+                                            style="margin-right: 3px; margin-bottom: 3px;"> 한국어 </div>
+                                    <ul class="option-list">
+
+                                        <li class="option"><img src="./img/62cb46f1e819841940bec47d_ja.png" alt="#"
+                                                class="img1" style="margin-right: 3px; margin-bottom: 3px;"> 日本語</li>
+                                        <li class="option"><img src="./img/62cb46f49e6ac45f35e39568_zh-CN.png" alt="#"
+                                                class="img1" style="margin-right: 3px; margin-bottom: 3px;"> 中文</li>
+                                        <li class="option"><img src="./img/6257bf8b5ba300233705a542_en.png" alt="#"
+                                                class="img1" style="margin-right: 3px; margin-bottom: 3px;"> English
+                                        </li>
+                                        <li class="option"><img src="./img/62cb46f125430509b9016776_ko.png" alt="#"
+                                                class="img1" style="margin-right: 3px; margin-bottom: 3px;"> 한국어</li>
+                                    </ul>
+                                    <img src="./img/6257bee91e6309a5a6f6b994_arrow-_1_.png" alt="#" class="arrow">
+                                </div>
+
+                            </section>
+
+                            <script>
+                                function onClickSelect(e) {
+                                    const isActive = e.currentTarget.className.indexOf("active") !== -1;
+                                    if (isActive) {
+                                        e.currentTarget.className = "select";
+                                    } else {
+                                        e.currentTarget.className = "select active";
+
+                                        document.addEventListener("click", onClickOutside);
+                                    }
+                                }
+
+                                function onClickOutside(e) {
+                                    const isOutside = !e.target.closest("#theme");
+                                    if (isOutside) {
+                                        const select = document.querySelector("#theme .select");
+                                        select.className = "select";
+                                        document.removeEventListener("click", onClickOutside);
+                                    }
+                                }
+
+                                document.querySelector("#theme .select").addEventListener("click", onClickSelect);
+
+                                function onClickOption(e) {
+                                    const selectedValue = e.currentTarget.innerHTML;
+                                    document.querySelector("#theme .text").innerHTML = selectedValue;
+                                }
+
+                                var optionList = document.querySelectorAll("#theme .option");
+                                for (var i = 0; i < optionList.length; i++) {
+                                    var option = optionList[i];
+                                    option.addEventListener("click", onClickOption);
+                                }
+                            </script>
+                            <div class="imo">
+                                <a data-track="twitter" href="https://twitter.com/discord" target="_blank"
+                                    class="link-s w-inline-block">
+                                    <img src="./img/6257d3d4a5c62c9ceb842ab6_svg3.png" alt="#">
+                                </a>
+                                <a data-track="instagram" href="https://www.instagram.com/discord/" target="_blank"
+                                    class="link-s w-inline-block"><img
+                                        src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/6257d3d56f8ce7dbabec148e_svg4.svg"
+                                        loading="lazy" alt=""></a>
+                                <a data-track="facebook" href="https://www.facebook.com/discord/" target="_blank"
+                                    class="link-s w-inline-block"><img
+                                        src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/6257d3d4ee20adc649cfe436_svg5.svg"
+                                        loading="lazy" alt=""></a>
+                                <a data-track="youtube" href="https://www.youtube.com/discord" target="_blank"
+                                    class="link-s w-inline-block"><img
+                                        src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/6257d3d516bc77e9a8c557ba_svg6.svg"
+                                        loading="lazy" alt=""></a>
+                                <a data-track="Tiktok" href="https://www.tiktok.com/@discord" target="_blank"
+                                    class="link-s w-inline-block"><img
+                                        src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/6374a8122d8df285ddea0e9e_Tiktok%20(1).svg"
+                                        loading="lazy" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="nodeall mver1">
+                            <div class="paragraph-small top-marg font-blue">제품</div>
+                            <a href="https://discord.com/download" class="link-footer">다운로드</a>
+                            <a href="https://discord.com/nitro" class="link-footer">Nitro</a>
+                            <a href="https://discordstatus.com/" class="link-footer">상태</a>
+                        </div>
+
+                        <div class="nodeall mver2">
+                            <div class="paragraph-small top-marg font-blue">회사</div>
+                            <a href="/company" class="link-footer">소개</a>
+                            <a href="/careers" class="link-footer">채용</a>
+                            <a href="/branding" class="link-footer">상표</a>
+                            <a href="/newsroom" class="link-footer">뉴스</a>
+                        </div>
+
+                        <div class="nodeall mver3">
+                            <div class="paragraph-small top-marg font-blue">자료</div>
+                            <a href="https://discord.com/college" class="link-footer">대학</a>
+                            <a href="https://support.discord.com/hc" class="link-footer">지원</a>
+                            <a href="https://discord.com/safetycenter" class="link-footer">보안센터</a>
+                            <a href="https://discord.com/blog" class="link-footer">블로그</a>
+                            <a href="https://support.discord.com/hc/en-us/community/topics" class="link-footer">피드백</a>
+                            <a href="https://discord.com/streamkit" class="link-footer">StreamKit</a>
+                            <a href="https://discord.com/creators" class="link-footer">제작자</a>
+                            <a href="https://discord.com/community" class="link-footer">커뮤니티</a>
+                            <a href="https://discord.com/build" class="link-footer">만들기</a>
+                        </div>
+
+                        <div class="nodeall mver4">
+                            <div class="paragraph-small top-marg font-blue">정책</div>
+                            <a href="/terms" class="link-footer">이용 약관</a>
+                            <a href="/privacy" class="link-footer">개인정보 보호정책</a>
+                            <a href="#" class="link-footer">쿠키 설정</a>
+                            <a href="/guidelines" class="link-footer">지침</a>
+                            <a href="https://discord.com/acknowledgements" class="link-footer">감사</a>
+                            <a href="https://discord.com/licenses" class="link-footer">라이선스</a>
+                            <a href="https://discord.com/moderation" class="link-footer">Moderation</a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="footer-line-blue">
+                        <a href="#" class="w-inline-block">
+                            <img src="./img/abc.png" alt="#" class="discord-footer">
+                        </a>
+                        <a href="https://discord.com/register"
+                            class="footer-button">가입하기</a>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </footer>
+        <!--footer end-->
+    
+</body>
+</html>

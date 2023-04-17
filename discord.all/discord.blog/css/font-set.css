@@ -1,0 +1,59 @@
+/* Ginto Nord */
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url(../font/ABCGintoNord-Hairline-Trial.woff2) format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url(../font/ABCGintoNord-Thin-Trial.woff2) format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url(../font/ABCGintoNord-Light-Trial.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url(../font/ABCGintoNord-Regular-Trial.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url(../font/ABCGintoNord-Medium-Trial.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url(../font/ABCGintoNord-Black-Trial.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url(../font/ABCGintoNord-Ultra-Trial.woff2) format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+/* Ginto Normal */
+@font-face {
+    font-family: 'Ginto Normal';
+    src: url(../font/ABCGintoNormal-Bold-Trial.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}

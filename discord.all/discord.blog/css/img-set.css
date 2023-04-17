@@ -1,0 +1,76 @@
+/* basic image settings */
+.bo-ra {
+    border-radius: 8px;
+}
+
+.width-set {
+    width: 91.2vw;
+    margin: 0 auto;
+}
+
+.bg-set {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+/* section.collection */
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* section.sub img */
+.sub-img1 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/64139c34c797ae6a8a8eed59_blog%20header-p-1080.png");
+}
+
+.sub-img2 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/64121f8765e921a28f9a2b54_Discord%20HQ%20-%202-p-1080.png");
+}
+
+
+/* section.block img */
+.block-img1 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/633cc73511d1b97578f933e1_2022_Activities_BlogNews_1800x720%20(1)-p-1080.png");
+}
+
+.block-img2 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/64064bb87f76f7e45341ed38_AI-DD-Blog-Header-p-1080.png");
+}
+
+.block-img3 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/63ffd1f53b2f8e3ce772894c_BlogHeader_1800x720%402x-p-1600.png");
+}
+
+.block-img4 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/640658a746a8ce16d18f27ac_027_Header-p-1080.png");
+}
+
+.block-img5 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/61ea03c5f329550592ff06cd_Policy%20Updates%20Blog-p-1080.png");
+}
+
+.block-img6 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/63ea5288a7bf7a7fedd49468_StageChannels_v2_Blog-01-p-1080.png");
+}
+
+
+/* section.collection1 */
+.col1-img1 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/6419e9dca30b3d2df089afb5_Spring_March.png");
+}
+
+/* section.collection2 */
+.col2-img2 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/63e2e54709c3bfde0bb75f6b_BHM2023_BLOGHDR_1800x720-p-1080.png");
+
+}
+
+.col2-img3 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/63a3a268824b2b785426523c_image5-p-1080.png");
+}
+
+.col2-img4 {
+    background-image: url("https://assets-global.website-files.com/5f9072399b2640f14d6a2bf4/63210df939db93db97f04368_HLHM_BlogHeader_1800x720-p-1080.png");
+}

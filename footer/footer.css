@@ -1,0 +1,330 @@
+
+footer .end-container {
+    overflow: visible;
+    padding-top: 80px;
+    padding-bottom: 64px;
+    background-color: #23272a;
+
+}
+
+
+footer .end-container .end-container-body {
+    position: relative;
+    z-index: 10;
+    width: 90%;
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer .end-container .end-container-body .end-body {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* width: 90%; */
+
+}
+
+footer .end-container .end-container-body .end-body h4 {
+    max-width: 250px;
+    min-width: 124px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Ginto nord', sans-serif;
+    color: #5865f2;
+    font-size: 32px;
+    line-height: 95%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+footer .flag-ja {
+    content: url(https://assets-global.website-files.com/6257ade…/62cb46f…_ja.png);
+}
+
+.flag-zh-Hans {
+    content: url(https://assets-global.website-files.com/6257ade…/62cb46f…_zh-CN.png);
+}
+
+.flag-zh-TW {
+    content: url(https://assets-global.website-files.com/6257ade…/62cb46f…_zh-TW.png);
+}
+
+.flag-ko {
+    content: url(https://assets-global.website-files.com/6257ade…/62cb46f…_ko.png);
+}
+
+.flag-cs {
+    content: url(https://assets-global.website-files.com/6257ade…/62cb46f…_cs.png);
+}
+
+.language .selector-language-name {
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+footer .lang {
+    /* background: #23272a; */
+    /* margin-bottom: 20px; */
+}
+
+footer select .koimg {
+    /* content: url(../img/62cb46f125430509b9016776_ko.png); */
+    /* background-image: url(../img/62cb46f125430509b9016776_ko.png); */
+
+}
+
+footer .img1 {
+    width: 24px;
+    height: 16px;
+    vertical-align: middle;
+    /* margin-right: 4px;
+    margin-top:30px; */
+}
+
+/* footer select {
+    background: #23272a;
+    color: white;
+    border: 0;
+} */
+
+.select {
+    position: relative;
+    /* line-height: 1px; */
+    /* color: white; */
+    margin-left: -15px;
+}
+
+
+footer .arrow {
+    /* display: block; */
+    position: absolute;
+    left: 80%;
+    bottom: 42%;
+    width: 10px;
+    /* display: flex; */
+}
+
+
+.select .option-list {
+    position: absolute;
+    /* top: 100%; */
+    bottom: 100%;
+    left: 0;
+    width: 120%;
+    overflow: hidden;
+    max-height: 0;
+    background-color: white;
+}
+
+.select.active .option-list {
+    max-height: none;
+}
+
+/* 테마 적용하기 */
+/* #theme {} */
+#theme .select {
+    width: 100%;
+    /* box-shadow: 0 0 2px rgba(0,0,0,0.3); */
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#theme .select:hover {
+    color: #333;
+    transition: all .3s;
+}
+
+/* #theme .select .text {} */
+#theme .select .option-list {
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+#theme .select .option-list .option {
+    padding: 10px 15px;
+}
+
+#theme .select .option-list .option:hover {
+    background-color: wheat;
+    opacity: 0.7;
+}
+
+footer .imo {
+    margin-top: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+footer .imo a img {
+    max-width: 24px;
+    min-width: 24px;
+    color: #5865f2;
+    background-clip: padding-box;
+    -webkit-text-fill-color: inherit;
+    mix-blend-mode: normal;
+}
+
+footer .imo a {
+    margin-right: 24px;
+    max-width: 100%;
+    display: inline-block;
+    color: #5865f2;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer .end-container .end-vertical-fill {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer .paragraph-small.top-marg.font-blue {
+    font-weight: 500;
+}
+
+footer .paragraph-small.top-marg {
+    margin-top: 0px;
+}
+
+footer .paragraph-small.font-blue {
+    color: #5865f2;
+}
+
+footer .paragraph-small {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2c2f33;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    white-space: normal;
+}
+
+footer .link-footer {
+    display: block;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+footer .link-footer:hover {
+    text-decoration: underline;
+    outline: 0;
+}
+
+footer .footer-line-blue {
+    display: flex;
+    margin-top: 32px;
+    padding-top: 32px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid #5865f2;
+}
+
+footer .w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+footer .discord-footer {
+    width: 124px;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+footer .footer-button {
+    flex: 0 0 auto;
+    background-color: #5865f2;
+    color: #fff;
+    padding: 7px 16px;
+    border-radius: 40px;
+    /* background-color: #fff; */
+    transition: all 200ms ease;
+    /* color: #23272a; */
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+footer .footer-button:hover {
+    background-color: #7289da;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+    white-space: normal
+}
+
+.w-nav-button {
+    position: relative;
+    float: right;
+    padding: 18px;
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 5%;
+}
+
+.w-nav-button-plus {
+    height: 4382px;
+    display: block;
+    width: 330px;
+}
+
+/* .w-nav-button::after{
+
+} */
+
+.w-nav-button img {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+@media (max-width: 1055px) {
+    
+    footer .end-container .end-container-body .end-body {
+        flex-wrap: wrap;
+        justify-content: right;
+        /* width: 70%; */
+    }
+
+    footer .end-container .end-container-body .end-vertical-fill {
+        /* height: 600px; */
+        width: 47%;
+    }
+    footer .end-container .end-container-body .nodeall {
+        width: 25%;
+    }
+
+    footer .end-container .end-container-body .mver1,
+    footer .end-container .end-container-body .mver2{
+        margin-bottom: 50px;
+    }
+
+
+
+}
+
+@media (max-width: 780px) {
+    footer .end-container .end-container-body .end-body .end-vertical-fill h4{
+        font-size: 26px;
+    }
+    
+}
